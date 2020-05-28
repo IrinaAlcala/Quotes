@@ -18,12 +18,7 @@ class App extends Component {
   }
 
 
-  //async componentDidMount() {
-    //const Quotes = await QuoteAPI.getQuote('Quotes/');
-    //const QuoteInfo = JSON.parse(Quotes)
-    //this.setState({ QuoteInfo });
-  //}
-
+  
   handleLogout = () => {
     userService.logout();
     this.setState({ user: null });
@@ -53,8 +48,10 @@ class App extends Component {
             handleSignupOrLogin={this.handleSignupOrLogin}
           />
         } />
-        <Route exact path='/quotes' render={({ history }) =>
-          <QuotesPage
+        <Route exact path='/quotes'
+          render={({ history }) =>
+          <QuotesPage 
+          user={this.state.user}
             
           />
         } />

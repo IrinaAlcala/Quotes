@@ -57,15 +57,15 @@ class QuotesPage extends Component {
             text: updatedQuotes[0].quote,
             author: updatedQuotes[0].author
         })
+    
     };
-
-    // Share the quote on twitter
-    // shareTheQuote = () => {
-    //     const url = "twitter.com";
-    //     const text = `${this.state.author} - ${this.state.text}`
-    //     window.open('http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text), '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
-    // }
-
+     //Share the quote on twitter
+     shareTheQuote = () => {
+         const url = "twitter.com";
+         const text = `${this.state.author} - ${this.state.text}`
+         window.open('http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text), '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
+     }
+    
     render () {
         return (
 
