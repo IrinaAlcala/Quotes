@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Route } from 'react-router-dom';
-//import * as QuoteAPI from '../../utils/QuoteService';
+import { Route, Switch } from 'react-router-dom';
+import QuotesPage from '../QuotesPage/QuotesPage';
 import Signup from '../Signup/Signup';
 import Login from '../Login/Login';
 import NavBar from '../../components/NavBar/NavBar';
@@ -40,6 +40,7 @@ class App extends Component {
           user={this.state.user}
           handleLogout={this.handleLogout}
         />
+        <Switch>
         <Route exact path='/signup' render={({ history }) =>
           <Signup
             history={history}
@@ -52,7 +53,12 @@ class App extends Component {
             handleSignupOrLogin={this.handleSignupOrLogin}
           />
         } />
-        
+        <Route exact path='/quotes' render={({ history }) =>
+          <QuotesPage
+            
+          />
+        } />
+        </Switch>
       
       </div>
     );

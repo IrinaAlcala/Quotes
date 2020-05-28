@@ -1,22 +1,116 @@
-.Categories {
-    display: flex;
+
+@import url('https://fonts.googleapis.com/css?family=Amaranth:400,400i,700,700i&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+
+#container {
+    display:flex;
     flex-direction: column;
-    justify-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: black;
 }
 
-.links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+#title {
+    padding:20px;
+    color:var(--main-white);
+    font-family: 'Pi  edra', sans-serif;
+    font-weight: 500;
 }
 
-#btn {
-    margin: 20px;
-    font-size: x-large;
+#quote {
+    margin:0 auto;
+    width:80%;
+    background-color: lightgoldenrodyellow;
+    border-radius:19px;
+    position: relative;
+    border:2px solid var(--main-purple);
+    margin-top:55px;
+    box-shadow: 31px 31px 31px -20px #000;
 }
 
-.cat {
-    color: white;
-    font-family: 'Bangers', cursive;
+#text {
+    text-align: center;
+    padding:2% 20%;
+    font-style: oblique;
 }
+
+#author {
+    text-align: right;
+    padding:4% 10%;
+    font-style: italic;
+    font-size: 24px;
+}
+
+/* #tweet, */
+#new-quote {
+    width: 200px;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    color: var(--main-white);
+    margin-bottom: 20px;    
+    font-size: 1.2rem;
+    font-family: 'Amaranth', sans-serif;
+    outline:none;
+    box-shadow: 3px 3px 3px -2px #000;
+    font-weight: 700;
+}
+
+
+#new-quote:hover,
+#new-quote:active {
+    background-color: #fff;
+    color: lightsalmon;
+    border: 1px solid var(--main-black);
+}
+
+
+
+
+#new-quote {
+    border-radius: 210px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #container {
+      font-size: 25px;
+    }
+  
+    #title {
+      padding: 50px;
+      font-size: 35px;
+    }
+  
+    #text {
+      padding: 2% 10%;
+      height: 20vh;
+      font-size: 20px;
+    }
+  
+    #author {
+      padding: 2% 10%;
+      font-size: 16px;
+    }
+  
+   
+    #new-quote {
+      width: 100px;
+      padding: 15px;
+      font-weight: 700;
+      font-size: 14px;
+      margin-top:20px;
+    }
+  
+  }
