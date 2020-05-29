@@ -7,7 +7,7 @@
 // router.get('/', function (req, res) {
 //     const options = {
 //         method: 'GET',
-//         url: 'https://us-central1-dadsofunny.cloudfunctions.net/DadQuotes/random/' + req.query.type,
+//         url: '' + req.query.type,
 //         headers: {
 //             'x-rapidapi-host': 'dad-Quotes.p.rapidapi.com',
 //             'x-rapidapi-key': API_KEY
