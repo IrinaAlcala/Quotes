@@ -6,7 +6,7 @@ import Signup from '../Signup/Signup';
 import Login from '../Login/Login';
 import NavBar from '../../components/NavBar/NavBar';
 import userService from '../../utils/userService';
-
+import WelcomePage from '../WelcomePage/WelcomePage';
 
 
 class App extends Component {
@@ -48,6 +48,13 @@ class App extends Component {
             handleSignupOrLogin={this.handleSignupOrLogin}
           />
         } />
+
+       <Route exact path='/'
+          render={({ history }) =>
+          <WelcomePage 
+          user={this.state.user}
+          />
+      } />
         <Route exact path='/quotes'
           render={({ history }) =>
           <QuotesPage 

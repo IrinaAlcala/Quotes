@@ -2,9 +2,9 @@
 
 import React, { Component, Fragment } from 'react';
 import './QuotesPage.css';
-import { Link } from "react-router-dom";
-import NavBar from "../../components/NavBar/NavBar";
-import App from "../App/App";
+//import { Link } from "react-router-dom";
+//import NavBar from "../../components/NavBar/NavBar";
+//import App from "../App/App";
 
 
 
@@ -80,6 +80,7 @@ class QuotesPage extends Component {
                     <div id="quote">
                         <p id="text">{this.state.text}</p>
                         <p id="author">{this.state.author}</p>
+                        <button id="tweet"onClick={this.shareTheQuote}>Tweet</button>
                         <button id="new-quote"onClick={this.getTheQuote}>New Quote</button>
                     </div>
                 </div>

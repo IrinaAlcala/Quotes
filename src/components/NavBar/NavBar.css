@@ -1,23 +1,56 @@
-.NavBar {
-    display: flex;
-    justify-content: flex-start;
-    padding: 2vmin;
-    font-size: 2.5vmin;
-    margin: 0 0 20px;
-    background-color: red;
-    height: 50px;
-  }
-    
-  .NavBar-link {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
+.navbar {
+  width: 100%;
+  max-width: 1060px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  
+  h1 {
+    font-family: "", sans-serif;
+    font-size: 26px;
+    color: #FFDE00;
+    text-shadow: 2px 2px #3b4cca;
+    margin: -15px 0 0 20px;
   }
   
-  .NavBar-link:hover {
-    color: black;
+  div {
+    display: flex;
+    height: 100%;
   }
-    
-  .NavBar-welcome, .logo {
-    color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.link:hover {
+  background-color: #FF1A1A;
+}
+
+@media all and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    height: 90px;
+
+    h1 {
+      font-size: 20px;
+      margin: -5px 0 -5px 0;
+    }
+
+    div {
+      width: 100%;
+      justify-content: space-around;
+    }
   }
+
+  .link {
+    font-size: 14px;
+  }
+}
