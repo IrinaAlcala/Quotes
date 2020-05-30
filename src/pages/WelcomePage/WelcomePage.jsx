@@ -7,11 +7,11 @@ function WelcomePage(props) {
             <QuotesPage />
         </div>
         :
-        <div>
-            <h2>Welcome to Motivational Quotes</h2>
-            <h4>"The wisdom of the wise, and the experience of ages, may be preserved by quotation".
+        <div id ='container'>
+            <h2 id="title">Welcome to Good Vibes</h2>
+            <p id="text">"The wisdom of the wise, and the experience of ages, may be preserved by quotation".</p>
 
-Isaac D'Israeli</h4>
+<p id="author">Isaac D'Israeli</p>
             <p>Sign up or Log in to see famous quotes that will encourage and motivate you!</p>
         </div>
 

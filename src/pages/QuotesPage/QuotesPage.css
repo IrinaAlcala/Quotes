@@ -1,5 +1,6 @@
 
-  @import url('https://fonts.googleapis.com/css?family=lemonada:400,400i,700,700i&display=swap'); 
+   @import url('https://fonts.googleapis.com/css?family=Lemonada:400,400i,700,700i&display=swap'); 
+  
 
 * {
     margin:0;
@@ -17,7 +18,7 @@
     width: 920px;
     height: 600px;
     text-align: center;
-    font-family: 'Lobster', sans-serif;
+    font-family: Aclonica, sans-serif;
     font-size: 2rem;
     /* background-color: lightseagreen; */
     color: black;
@@ -26,7 +27,7 @@
 #title {
     padding:10px;
     color: black;
-    font-family: 'Lobster', sans-serif;
+    font-family: Aclonica, sans-serif;
     font-weight: 500;
 }
 
@@ -39,12 +40,17 @@
     border:2px solid lightgray;
     margin-top:30px;
     box-shadow: 31px 31px 31px -20px #000;
+    background-image: url('https://imgur.com/B04Iue3.jpg');
+    
 }
 
 #text {
     text-align: center;
     padding:2% 10%;
     font-style: oblique;
+    font-family: Courgette;
+    font-weight: 500
+    
 }
 
 #author {
@@ -52,6 +58,8 @@
     padding:4% 10%;
     font-style: italic;
     font-size: 24px;
+    font-family: Courgette;
+
 }
 
 #tweet,
@@ -60,7 +68,7 @@
     padding: 10px;
     border: 0;
     border-radius: 5px;
-    background-color: lightsalmon;
+    background-color: peachpuff;
     color: var(--main-white);
     margin-bottom: 20px;    
     font-size: 1.2rem;
@@ -74,7 +82,7 @@
 #tweet:active,
 #new-quote:hover,
 #new-quote:active {
-    background-color:lightpink;
+    background-color:ligh;
     color: var(--main-black);
     border: 1px solid var(--main-black);
 }
