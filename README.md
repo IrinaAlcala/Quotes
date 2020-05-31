@@ -16,8 +16,8 @@ Good Vibes is a collection of famous motivational and inspirational quotes that 
 
 ## View of the App
 ![image of welcome page](https://imgur.com/l8tl2Gf.png)
-!()
-!()
+![image of logi page](https://imgur.com/JXq6Y0a.png)
+![image of quote page](https://imgur.com/bx8t8uG.png)
 
 ## Technologies Used
 
