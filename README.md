@@ -15,7 +15,7 @@ Good Vibes is a collection of famous motivational and inspirational quotes that 
 * The Good Vibes App can be found [here]()
 
 ## View of the App
-!()
+!(https://imgur.com/l8tl2Gf.png)
 !()
 !()
 
