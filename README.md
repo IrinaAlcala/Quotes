@@ -11,8 +11,8 @@ Good Vibes is a collection of famous motivational and inspirational quotes that 
 * The user can include their favorite quotes to display on Tweeter Account with the use of Tweeter button
 
 
-My Trello Box can be found [here](https://trello.com/b/Qn78tiHp/good-vibes) 
-The Good Vibes App can be found [here]()
+* My Trello Box can be found [here](https://trello.com/b/Qn78tiHp/good-vibes) 
+* The Good Vibes App can be found [here]()
 
 ## View of the App
 !()
