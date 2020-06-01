@@ -9,7 +9,7 @@ const NavBar = (props) => {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <Link to='' className='NavBar-link' onClick={props.handleLogout} >LOG OUT</Link>
             &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <Link to='/quotes' className='NavBar-link' >Quotes</Link>
+            <Link to='/quotes' className='NavBar-link' >QUOTES</Link>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span className='NavBar-welcome'>WELCOME, {props.user.name.toUpperCase()} </span>
         </div>
