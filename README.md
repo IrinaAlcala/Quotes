@@ -31,10 +31,12 @@ Good Vibes is a collection of famous motivational and inspirational quotes that 
 * MongoDB/Mongoose
 * Express
 * Third-party API
+* MERN stack
+* JWT (JSON Web Token)
 * Heroku
 
 ## Next Steps
 
-* Expand existing API and make categories for quotes
+* Expand or replace existing API and make categories for quotes
 * Have a personal quote page where the user can add favorite quotes or remove the ones that don't inspire anymore
 * Create responsive design so users can view the add on their mobile devices
