@@ -12,7 +12,7 @@ Good Vibes is a collection of famous motivational and inspirational quotes that 
 
 
 * My Trello Box can be found [here](https://trello.com/b/Qn78tiHp/good-vibes) 
-* The Good Vibes App can be found [here](https://irinavibes.herokuapp.com/quotes)
+* The Good Vibes App can be found [here](https://irinavibes.herokuapp.com)
 
 ## View of the App
 ![image of welcome page](https://imgur.com/l8tl2Gf.png)
