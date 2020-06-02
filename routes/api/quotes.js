@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const QuotesCtrl = require('../../controllers/quotes');
+const quotesCtrl = require('../../controllers/quotes');
 
-router.get('/quotes', QuotesCtrl.index);
+router.get('/quotes', quotesCtrl.index);
 router.use(require('../../config/auth'));
 
 function checkAuth(req, res, next) {

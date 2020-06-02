@@ -7,5 +7,5 @@ module.exports = {
 
 async function index(req, res) {
     const quotes = await Quote.find({});
-    res.status(200).json(Quotes);
+    res.status(200).json(quotes);
 }
