@@ -1,10 +1,11 @@
 const Quote = require('../models/quote');
+//const User = require('../models/user');
 
 module.exports = {
     index
 }
 
 async function index(req, res) {
-    const Quotes = await Quote.find({});
+    const quotes = await Quote.find({});
     res.status(200).json(Quotes);
 }

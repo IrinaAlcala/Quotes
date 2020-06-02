@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const QuoteSchema = new mongoose.Schema({
+const quoteSchema = new mongoose.Schema({
     text: String,
     author: String,
     
@@ -9,4 +9,4 @@ const QuoteSchema = new mongoose.Schema({
     timestamps: true
 });
 
-module.exports = mongoose.model('Quote', QuoteSchema);
+module.exports = mongoose.model('Quote', quoteSchema);
