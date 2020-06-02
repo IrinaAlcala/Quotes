@@ -1,4 +1,4 @@
-const BASE_URL = '/api/Quotes'
+const BASE_URL = '/api/quotes'
 
 
 export function getQuote(type) {
